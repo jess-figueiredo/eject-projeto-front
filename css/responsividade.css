@@ -1,0 +1,94 @@
+@media(max-width: 645px){
+    nav{
+        display: block;
+        width: 100%;
+    }
+    nav ul{
+        display: none;
+    }
+    h2{
+        font-size: 4pt;
+    }
+    .icone-drop{
+        display: block;
+        margin-right: 20px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar img{
+        padding-left: 20px;
+    }
+    .navbar2{
+        margin-top: 50px;
+    }
+    section{
+        max-width: auto;
+        height: auto;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    .home{
+        flex-direction: column;
+        width: 100%;
+        
+        padding: 0px;
+    }
+    .img img {
+        width: 300px;
+    }
+    .txt {
+        width: 100%;
+        font-size: 15pt;
+        margin-top: 30px;
+    }
+    .txt h1{
+        margin-top: 3rem;
+        margin-bottom: 1.5rem;
+        margin-left: 10%;
+    }
+    .txt h3{
+        margin-left: 10%;
+    }
+    .txt p{
+        box-sizing: border-box;
+        padding: 10%;
+        
+    }
+    .txt button {
+       margin-left: 15%;
+    }
+
+    .txt2{
+        height: auto;
+        width: 90%;
+        margin: 0rem;
+
+        
+    }
+    .txt3{
+        height: auto;
+        width: 90%;
+        margin: 0rem;
+        padding: 15px;
+    }
+    .txt4 {
+        height: auto;
+        width: 90%;
+        margin: 0rem;
+        padding: 15px;
+    }
+    .forms{
+        width: 100%;
+        height: auto;
+    }
+    .forms input{
+        width: 100%;
+        border: none;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        
+    }
+    
+    
+}

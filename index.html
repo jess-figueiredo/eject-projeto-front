@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css-->
+    <link rel="stylesheet" href="css/slyle.css">
+    <link rel="stylesheet" href="css/responsividade.css">
+    <!--css-->
+    <link rel="shortcut icon" href="imagens/oncube_logo1.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <title>ONCUBE</title>
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="./imagens/oncube_logo1.png" alt="">
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#qsm">Quem somos</a></li>
+            <li><a href="#pdt">Produtos</a></li>
+            <li><a href="#par">Parceiros</a></li>
+            <li><a href="#txt5">Contato</a></li>
+
+        </ul>
+        <img src="./imagens/oncube_logo1.png" alt="" class="icone-drop">
+    </nav>
+    <nav class="navbar2 hide" id="nav-aside">
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#qsm">Quem somos</a></li>
+            <li><a href="#pdt">Produtos</a></li>
+            <li><a href="#par">Parceiros</a></li>
+            <li><a href="#txt5">Contato</a></li>
+
+        </ul>
+
+    </nav>
+
+    <div class="home" id="home">
+        <div class="txt" id="txt">
+            <h1>Sejam bem Vindxs!</h1>
+            <h3>O que será hoje ?</h3>
+            <p>A Oncube é a loja voltada para o quebra-cabeça mais intrigante do planeta, o Cubo Mágico. Aqui você vai
+                encontrar produtos originais e importados, tanto cubos profissionais para usar em campeonatos quanto
+                para sua coleção. Sempre trazemos novidades e lançamentos. Confira!
+            </p>
+            <br>
+
+            <button>Produtos</button>
+            <button>Preciso de ajuda</button>
+        </div>
+        <div class="imghome">
+            <img src="imagens/cubobonito.png" alt="">
+            <h4>Vamos jogar!</h4>
+        </div>
+    </div>
+
+    <section class="qms" id="qsm">
+        <div class="txt2">
+            <h2>Quem somos</h2>
+            <p>Essa é a ON CUBE, uma loja voltada para o público que aprecia o quebra-cabeça mais intrigante do planeta,
+                o cubo mágico. Aqui você vai encontrar produtos originais e importados, tanto para competições quanto
+                para sua coleção. Sempre trazemos novidades e lançamentos. <br> <br>
+                A On Cube foi criada em 2013 (naquela época com outro nome) e trabalhávamos apenas dentro do Mercado
+                Livre, próximo do final do ano de 2015 após muitas vendas só pelo Mercado Livre mudamos nosso nome e
+                montamos o site oficial da loja, com intuito de fazer esse esporte crescer ainda mais e poder levar a
+                todos um produto bom e também com um preço acessível.
+                <br> <br>
+                Não conhece a loja ou nunca ouviu falar dela? Não sabe se somos confiáveis? Você pode conferir nossa
+                Reputação clicando AQUI (Você será redirecionado para nossa reputação dentro do Mercado Livre). <br>
+
+                Hoje a ON CUBE tem uma lista de mais de 40 mil clientes já atendidos, atendemos com maior prazer e
+                sempre tratando a todos da mesma forma da qual gostaríamos de ser tratados.
+            </p>
+        </div>
+
+    </section>
+
+    <section class="pdt" id="pdt">
+        <div class="txt3" id="txt3">
+            <h2>Produtos</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, blanditiis ut provident voluptas nostrum ad
+                amet nobis natus nesciunt aliquid necessitatibus fugit reiciendis perferendis ratione sunt sequi!
+                Dolorem, accusantium amet? Lorem ipsum elit. Obcaecati culpa aut deserunt deleniti at, ducimus
+                voluptatibus labore itaque ex, excepturi magni quis saepe minima, expedita consequuntur amet fuga fugit.
+                Expedita!</p>
+
+        </div>
+    </section>
+
+    <section class="par" id="par">
+        <div class="txt4" id="txt4">
+            <h2>Parceiros</h2>
+            <div class="conteiner">
+                <div class="gallery-wrapper swiper">
+
+                    <div class="gallery center swiper-wrapper">
+                        <div class="swiper-slide"><img src="imagens/agua.jpg" alt="" class="item current-item"></div>
+                        <div class="swiper-slide"><img src="imagens/flareon.jpg" alt="" class="item"></div>
+                        <div class="swiper-slide"><img src="imagens/sylveon.jpg" alt="" class="item"></div>
+                        <div class="swiper-slide"><img src="imagens/gelo.jpg" alt="" class="item"></div>
+                        <div class="swiper-slide"><img src="imagens/folha.jpg" alt="" class="item"></div>
+                        <div class="swiper-slide"> <img src="imagens/umbreom.jpg" alt="" class="item"></div>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="txt5" id="txt5">
+
+        <div class="forms">
+            <h3>Fale conosco!</h3>
+            <br>
+            <label for="txtname">Nome:</label>
+            <input type="text" name="txtname" id="txtname">
+            <label for="lblnumber">Número de teleforne</label>
+            <input type="number" name="lblnumber" id="lblnumber">
+            <label for="mail">E-mail:</label>
+            <input type="email" name="mail" id="mail">
+            <label for="txtarea">Informações adicionais:</label>
+            <textarea name="txtarea" id="txtarea" cols="42" rows="10"></textarea>
+            <input type="button" value="Enviar" id="btnenviar">
+        </div>
+
+    </div>
+
+
+    <footer>
+        <img src="./imagens/oncube_logo1.png" alt="">
+        <p>ProSEmpre BETA - EJECT © 2022.2</p>
+    </footer>
+    <!--<script src="javascript/hide.js"></script>
+    <script src="javascript/script.js" type="text/javascript"></script>-->
+    <script type="text/javascript" src="javascript/carousel.js"></script>
+
+    <!--teste-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    
+</body>
+
+</html>
