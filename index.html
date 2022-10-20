@@ -11,7 +11,11 @@
     <!--css-->
     <link rel="shortcut icon" href="imagens/oncube_logo1.ico" type="image/x-icon">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
     <title>ONCUBE</title>
 
 </head>
@@ -27,7 +31,7 @@
             <li><a href="#txt5">Contato</a></li>
 
         </ul>
-        <img src="./imagens/oncube_logo1.png" alt="" class="icone-drop">
+        <button class="icone-drop">=</button>
     </nav>
     <nav class="navbar2 hide" id="nav-aside">
         <ul>
@@ -97,26 +101,19 @@
         <div class="txt4" id="txt4">
             <h2>Parceiros</h2>
             <div class="conteiner">
-                <div class="gallery-wrapper swiper">
-
-                    <div class="gallery center swiper-wrapper">
-                        <div class="swiper-slide"><img src="imagens/agua.jpg" alt="" class="item current-item"></div>
-                        <div class="swiper-slide"><img src="imagens/flareon.jpg" alt="" class="item"></div>
-                        <div class="swiper-slide"><img src="imagens/sylveon.jpg" alt="" class="item"></div>
-                        <div class="swiper-slide"><img src="imagens/gelo.jpg" alt="" class="item"></div>
-                        <div class="swiper-slide"><img src="imagens/folha.jpg" alt="" class="item"></div>
-                        <div class="swiper-slide"> <img src="imagens/umbreom.jpg" alt="" class="item"></div>
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="imagens/agua.jpg" alt="evee de agua"></div>
+                    <div class="swiper-slide"><img src="imagens/flareon.jpg" alt="evee de fogo"></div>
+                    <div class="swiper-slide"><img src="imagens/folha.jpg" alt="evee de verde"></div>
+                    <div class="swiper-slide"><img src="imagens/gelo.jpg" alt="evee de gelo"></div>
+                    <div class="swiper-slide"><img src="imagens/sylveon.jpg" alt="evee"></div>
+                    <div class="swiper-slide"><img src="imagens/umbreom.jpg" alt="evee das sombras"></div>
                     </div>
+                    <div class="swiper-pagination"></div></div>
+
                 </div>
-
-                <div class="swiper-pagination"></div>
-
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-
-                <!-- If we need scrollbar -->
-                <div class="swiper-scrollbar"></div>
             </div>
 
         </div>
@@ -145,12 +142,17 @@
         <img src="./imagens/oncube_logo1.png" alt="">
         <p>ProSEmpre BETA - EJECT © 2022.2</p>
     </footer>
-    <!--<script src="javascript/hide.js"></script>
-    <script src="javascript/script.js" type="text/javascript"></script>-->
-    <script type="text/javascript" src="javascript/carousel.js"></script>
 
-    <!--teste-->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- scripts -->
+    <script src="javascript/hide.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script src="javascript/carousel.js"></script>
+
+
+
     
 </body>
 
